@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test01
+  description: 
+  annotations:
+    github.com/project-slug: duy275/lab-app-test01
+  links:
+    - url: https://test01.hoanqdy.cloud
+      title: App
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/guests
